@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity {
                     // This method will be executed once the timer is over
                     // Start your app main activity
 
-                    Intent i = new Intent(MainActivity.this, mapActivity.class);
+                    Intent i = new Intent(MainActivity.this, LocationActivity.class);
                     startActivity(i);
 
                     // close this activity
